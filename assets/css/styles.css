@@ -168,12 +168,15 @@ ul {
 .demasquer {
     display:none;
 }
+
 #post1:hover .demasquer {
     display:inline;
 }
+
 #post1:hover .lasuite {
     display:none;
 }
+
 .demasquer:hover {
     display: inline;
 }
@@ -188,7 +191,6 @@ footer{
   justify-content: space-around;
   align-self: flex-end;
   background:#3f51b5;
-  margin-top: 86px;
 }
 
 footer .reseausociaux{
