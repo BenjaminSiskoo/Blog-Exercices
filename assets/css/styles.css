@@ -7,7 +7,7 @@ body {
 
 body
 {
-  background:#fff;
+  background-color: #14a1cc;
   font-family:'Lato';
   margin:0;
   padding:0;
@@ -61,6 +61,7 @@ a
   line-height:2.5;
   padding:0 20px;
   width:100%;
+  color:#fff;
 }
 
 .menu nav input
@@ -103,11 +104,13 @@ a
 .menu .burger:checked + nav
 {
   height:calc(45vh - 50px);
+  position:relative;
+  z-index: 4;
 }
 
 p
 {
-  padding:20px;
+  padding:5px;
 }
 
 p,h2 {
@@ -117,7 +120,8 @@ p,h2 {
 }
 
 img {
-  width:100%; 
+  width:100%;
+  position:relative;
 }
 
 a{
@@ -148,7 +152,7 @@ ul {
   height:100px;
   display:flex;
   flex-direction: row;
-}
+ }
 
 .form_connexion > *{
     display:flex;
@@ -177,4 +181,18 @@ ul {
 article {
   border: 1px dashed #666;
   padding: 20px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-end;
+  background:#3f51b5;
+  margin-top: 86px;
+}
+
+footer .reseausociaux{
+  height: auto;
+  display: flex;
+  align-items: center;
 }
