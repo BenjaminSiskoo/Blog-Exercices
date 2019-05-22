@@ -15,3 +15,4 @@
 1) Maquette papier
 2) Création du repo sur github
 3) Création de la structure du site (index.hmtl, assets avec img, css, js)
+4) Création de la GH-Pages.

@@ -123,24 +123,6 @@ img {
 a{
   color:blue;
 }
-/*
-article {
-  width:90%;
-  margin:auto;
-  height:75px;
-  overflow: auto;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  color:black;
-}
-/*
-  width:90%;
-  margin:auto;
-  height:75px;
-  overflow: auto;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  color:black;*/
 
 .pagination {
   color:blue;
@@ -190,4 +172,9 @@ ul {
 }
 .demasquer:hover {
     display: inline;
+}
+
+article {
+  border: 1px dashed #666;
+  padding: 20px;
 }
